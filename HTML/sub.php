@@ -87,7 +87,7 @@ document.addEventListener('keyup', function(e) {
 
     //隠しコマンド成功時あらーと
 alert('たたかいはおわらない');
-//管理者ページ遷都
+//じゃんけんページ遷都
 location.href = "http://localhost/10_10_kondodaigo/HTML/main.php";
 
 

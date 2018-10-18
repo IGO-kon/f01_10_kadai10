@@ -110,13 +110,13 @@ if ($y == 1){
 // }
 
  ?>
-
+<div class="save">このたたかいを　きろくしますか？</div>
 <form action="insert.php" method="post">
 
     <input type="hidden"  name="choice" value="<?=$player?>">
     <input type="hidden" name="enemy" value="<?=$y?>">
     <input type="hidden" name="result" value="<?=$result?>">
-    <input type="submit" value="送信">
+    <input type="submit" value="はい">
  </form>
 
 
